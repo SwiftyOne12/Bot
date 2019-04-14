@@ -12,8 +12,7 @@ client.on('ready', () => {
 
 
 
-client.login('NDEyNzI3MDU1NjU5MTcxODQw.XLL5Og.UV3pNszS5tSgTTStVPAOqCrgB0s');
-
+client.login('')
 
 //HELP\\
 
@@ -28,7 +27,7 @@ client.on('message', function (message) {
       .setFooter("𝓢𝓸𝓸𝓷..")
   message.channel.sendEmbed(help_embed)
   }
-  })
+  }) 
 
 //ping\\
   client.on('message', msg => {
